@@ -9,6 +9,32 @@
     align-items: center;
 }
 
+body {
+    background: linear-gradient(to right, #3a93c7, #f5f117);
+}
+form input {
+    margin: 10px;
+    width: 300px;
+}
 section {
     text-align: center;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    width: 300px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 300px;
+    background-color: bisque;
+    color: darkblue;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button[type="submit"]:hover{
+    background-color: aliceblue;
 }
