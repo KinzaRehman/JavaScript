@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0; 
@@ -13,13 +14,18 @@ body {
     text-align: center;
     
     height: 100vh;
-    background: linear-gradient(to right, #6063f3, #1d2b91);
+    background: linear-gradient(to right, #7ecfda, #6499c4);
 
 }
+
 form input {
     margin: 10px;
     width: 300px;
+    height: 45px; 
+    border-radius: 5px;
+    
 }
+
 section {
     text-align: center;
     font-size: 2rem;
@@ -34,11 +40,12 @@ button[type="submit"] {
     font-weight: bold;
     font-size: 2rem;
     width: 300px;
-    background-color: rgb(138, 209, 206);
-    color: darkblue;
+    background-color: rgb(86, 169, 207);
+    color: rgb(253, 253, 255);
     cursor: pointer;
     border-radius: 5px;
 }
+
 button[type="submit"]:hover{
-    background-color: aliceblue;
+    background-color: rgb(140, 175, 206);
 }

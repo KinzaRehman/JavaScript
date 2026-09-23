@@ -18,17 +18,19 @@ function getWeather () {
     const fullPlace = cityInput + ", " + countryInput
 
 //coordiantes by location name 
-    const apiUrl =`http://api.weatherapi.com/v1/current.json?key={INSERT API KEY HERE}&q=${fullPlace}&aqi=no`
+    const apiUrl =`http://api.weatherapi.com/v1/current.json?key=388082f6b25c4169979213913262209&q=${fullPlace}&aqi=no`
     fetch(apiUrl)
     .then(res => res.json())
     .then(data => {
         console.log(data)
-        document.querySelector(".country").innerHTML ="State: " + data.location.country;
+        document.querySelector(".country").innerHTML ="Country: " + data.location.country;
+        document.querySelector(".region").innerHTML ="State: " + data.location.region;
         document.querySelector(".city").innerHTML = "City: " + data.location.name;
         document.querySelector(".date").intterHTML ="Date Updated: " + data.current.last_updated;
         document.querySelector(".temperatureC").innerHTML = "Temp in C: " + data.current.temp_c;
         document.querySelector(".temperatureF").innerHTML = "Temp in F: " + data.current.temp_f;
         document.querySelector(".text").innerHTML = "Condition: " + data.current.condition.text;
+        document.querySelector(".image").src = "https:" + data.current.condition.icon; 
     })
     .catch(err => {
         console.log(`error${err}`)
