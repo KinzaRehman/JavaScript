@@ -27,8 +27,8 @@ function getWeather () {
         document.querySelector(".region").innerHTML ="State: " + data.location.region;
         document.querySelector(".city").innerHTML = "City: " + data.location.name;
         document.querySelector(".date").intterHTML ="Date Updated: " + data.current.last_updated;
-        document.querySelector(".temperatureC").innerHTML = "Temp in C: " + data.current.temp_c;
-        document.querySelector(".temperatureF").innerHTML = "Temp in F: " + data.current.temp_f;
+        document.querySelector(".temperatureC").innerHTML = "Temp in C: " + data.current.temp_c + " °C"
+        document.querySelector(".temperatureF").innerHTML = "Temp in F: " + data.current.temp_f + " °F"
         document.querySelector(".text").innerHTML = "Condition: " + data.current.condition.text;
         document.querySelector(".image").src = "https:" + data.current.condition.icon; 
     })
