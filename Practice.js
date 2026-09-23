@@ -42,8 +42,8 @@ class PersonModern{
         console.log(`Hello ${this.name}`)
     }
 }
-const personMod1 = new personModern('human', 30)
-const personMod2 = new personModern('not', 40)
+const personMod1 = new PersonModern('human', 30)
+const personMod2 = new PersonModern('not', 40)
 
 
 //object lietral 
@@ -56,23 +56,31 @@ const animal = {
 let dog = Object.create(animal)
 console.log(dog.noise)
 
+dog.noise = () => console.log('woof!');
+
 // What does it mean when we say objects and arrays are mutable?
 //mutable is you can change something 
+//different methods to check for clicking and wins and user in a contianed class
 
 
+// What is Object-oriented programming:OOP is organizing your code around objects.
+//  We know objects can hold two things: data and behavior.
+//  So instead of organizing code through functions and variables, 
+// we use relationships around objects.
 
-
-
-
-
-
-
-
-
-
-
-// What is Object-oriented programming
 // Create a shopping cart using OOP
+
+class shoppingCart { 
+    constructor(user) {
+        this.use = userthis.items = []
+    }
+    addItems(name, price) {
+        this.items.push({
+            name: name,
+            price: price,
+        })
+    }
+}
 // Can you explain why two objects that look the same are not considered equal in JavaScript?
 // What is a higher-order function?
 // Review map() , filter() & reduce()
