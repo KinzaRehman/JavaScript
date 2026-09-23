@@ -30,5 +30,9 @@ function getWeather () {
         document.querySelector(".temperatureF").innerHTML = "Temp in F: " + data.current.temp_f;
         document.querySelector(".text").innerHTML = "Condition: " + data.current.condition.text;
     })
+    .catch(err => {
+        console.log(`error${err}`)
+        alert(`error${err}`)
+        })    
 
 }

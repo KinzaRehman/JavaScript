@@ -13,7 +13,8 @@ body {
     text-align: center;
     
     height: 100vh;
-    background: linear-gradient(to right, #3a93c7, #f5f117);
+    background: linear-gradient(to right, #6063f3, #1d2b91);
+
 }
 form input {
     margin: 10px;
