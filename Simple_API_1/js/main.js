@@ -4,12 +4,8 @@
 //https://apidocs.geoapify.com/docs/place-details/
 //https://data.cityofnewyork.us/api/v3/views/8586-3zfm/query.json
 //https://dev.socrata.com/docs/functions/#3.0,
-
 //  const url = `https://data.cityofnewyork.us/api/v3/views/rbx6-tga4/query.json?pageNumber=1&pageSize=10&zip=${zip}&borough=${borough}`
-
-
-
- https://data.cityofnewyork.us/api/v3/views/rbx6-tga4/query.json?pageNumber=1&pageSize=10&app_token=$YOUR_APP_TOKEN&query=SELECT%20*%20WHERE%20%60borough%60%3D'${borough}'
+ //https://data.cityofnewyork.us/api/v3/views/rbx6-tga4/query.json?pageNumber=1&pageSize=10&app_token=$YOUR_APP_TOKEN&query=SELECT%20*%20WHERE%20%60borough%60%3D'${borough}'
   
 document.querySelector('#submit').addEventListener("click", getProjects)
 
