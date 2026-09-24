@@ -18,12 +18,11 @@ Goal: Enable your user to enter a city + country and return the temperature in F
 ### Simple API 1
 Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone in the trades (construction, hvac, plumbing, ect)
 -web scraping 
--
 
 ### Simple API 2 
 Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone working at or managing a restaurant.
 
-### Complex API 
+### Complex API 1
 Goal: Build a simple front-end app that uses data returned from one api to make a request to another api to create something that would be beneficial to a veterinary practice
 
 ### Complex API 2

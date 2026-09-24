@@ -1,7 +1,5 @@
-🐾 Project: Complex API 1 - Veterinary Practice
-Goal: Build a simple front-end app that uses data 
-returned from one api to make a request to another 
-api to create something that would be beneficial to a veterinary practice.
+Project: Simple API 2 - Restaurant
+Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone working at or managing a restaurant.
 
-Push to this github repo: https://github.com/KinzaRehman/complex-api-veterinary-practice.git
+Push to this github repo: https://github.com/KinzaRehman/simple-api-restaurant.git
 
