@@ -1,7 +1,2 @@
- Project: Complex API 2 - Med Spa
-Goal: Build a simple front-end app that uses data
-returned from one api to make a request to another
-api to create something that would be beneficial
-to a Med Spa.
-
-Push to this github repo: https://github.com/KinzaRehman/complex-api-med-spa.git
+Goal: Use NASA's API to return all of their facility locations (~400). Display the name of the facility, its location, and the weather at the facility currently.
+Push to this github repo: 
